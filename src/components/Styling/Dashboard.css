@@ -1,0 +1,58 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .dashboard-sidebar {
+    width: 240px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .dashboard-sidebar nav {
+    /* Style your sidebar navigation links here */
+  }
+  
+  .logout-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #f44336; /* Red logout button for contrast */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .dashboard-main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .dashboard-header {
+    padding: 10px 0;
+    background-color: #2196f3; /* Blue header background */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .dashboard-intro {
+    margin: 20px 0;
+  }
+  
+  .dashboard-content {
+    /* Style for the main content area */
+  }
+  
+  .dashboard-footer {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #2196f3; /* Blue footer background */
+    color: #fff;
+  }
+  

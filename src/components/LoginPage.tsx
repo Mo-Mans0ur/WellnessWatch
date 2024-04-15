@@ -52,7 +52,8 @@ const LoginPage = () => {
     if (!Object.values(newErrors).some((error) => error)) {
       // Here you would typically handle the login logic, like calling an API
       console.log("Login Data:", loginData);
-      navigate("/dashboard"); // Navigate to dashboard or other appropriate route
+      navigate("/ashboard"); // Navigate to dashboard or other appropriate route
+      navigate("/Dashboard"); // Navigate to dashboard or other appropriate route
     } else {
       setErrors(newErrors);
     }
